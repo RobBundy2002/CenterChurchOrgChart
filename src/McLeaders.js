@@ -1,9 +1,24 @@
-import React from 'react';
-import OrgChart from './OrgChart';
-import { mcLeaders } from './orgData';
+import {
+    mcLeadersUnderJosh,
+    mcLeadersUnderDrew,
+    mcLeadersUnderJason,
+    mcLeadersUnderForrest,
+    mcLeadersUnderRuss,
+    mcLeadersUnderAlan
+} from './orgData';
+import OrgChart from "./OrgChart";
 
 function MCLeaders() {
-    return <OrgChart title="MC Leaders" members={mcLeaders} />;
+    const allMCLeaders = [
+        ...mcLeadersUnderJosh,
+        ...mcLeadersUnderDrew,
+        ...mcLeadersUnderJason,
+        ...mcLeadersUnderForrest,
+        ...mcLeadersUnderRuss,
+        ...mcLeadersUnderAlan
+    ];
+
+    return <OrgChart title="MC Leaders" members={allMCLeaders} />;
 }
 
 export default MCLeaders;

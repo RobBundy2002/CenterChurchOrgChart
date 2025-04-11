@@ -34,7 +34,7 @@ import ginnySigalas from './Ginny.png';
 import ianSimmons from './Ian.png';
 
 const placeholder = 'https://via.placeholder.com/150';
-export const elders = [
+export let elders = [
     { name: 'Josh Miller', role: 'Staff Elder', photo: joshMiller },
     { name: 'Justin Leitch', role: 'Staff Elder', photo: justinLeitch },
     { name: 'Forrest Cory', role: 'Lay Elder', photo: forrestCory },
@@ -44,18 +44,171 @@ export const elders = [
     { name: 'Drew Reasons', role: 'Lay Elder', photo: drewReasons },
 ];
 
+export const eldersWithLinks = elders.map(elder => ({
+    ...elder,
+    linkTo: `/elders/${elder.name.toLowerCase().replace(/\s+/g, '-')}`
+}));
+
 export const deacons = [
     { name: 'Keaton Daniel', role: 'Deacon', photo: keatonDaniel },
 ];
 
-export const mcLeaders = [
+export const mcLeadersUnderForrest = [
     {
-        name: 'Zach & Hannah Evans',
-        role: 'MC Leaders',
+        name: 'The Evans',
+        role: 'Housekey MC',
         photo: placeholder,
-        description: 'Leading missional community together',
+        description: '',
+    },
+    {
+        name: 'The Shockleys',
+        role: 'MC-64',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Flannerys',
+        role: 'Ruckersville',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Lewises',
+        role: 'Riverside',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Bigelows',
+        role: 'Barracks',
+        photo: placeholder,
+        description: '',
     },
 ];
+
+export const mcLeadersUnderDrew = [
+    {
+        name: 'The Durrers',
+        role: 'Crozet',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Royce',
+        role: 'YP Men',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Putrinos',
+        role: 'Commonwealth',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Turnbulls',
+        role: 'Ivy',
+        photo: placeholder,
+        description: '',
+    },
+];
+
+export const mcLeadersUnderAlan = [
+    {
+        name: 'The Mins',
+        role: 'Belmont',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The McGuires',
+        role: 'Carrsbrook',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Rileys',
+        role: 'Earlysville',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Sharpes',
+        role: 'Rio East',
+        photo: placeholder,
+        description: '',
+    },
+];
+
+export const mcLeadersUnderJason = [
+    {
+        name: 'The Kowalewskis',
+        role: 'Pantops',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Cannadys',
+        role: 'Rugby',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The DiGiorgios',
+        role: 'Lake Monticello',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Ahns',
+        role: 'Logos MC',
+        photo: placeholder,
+        description: '',
+    },
+];
+
+export const mcLeadersUnderJosh = [
+    {
+        name: 'The Congers',
+        role: 'Forrest Lakes',
+        photo: placeholder,
+        description: '',
+    },
+];
+
+export const mcLeadersUnderRuss = [
+    {
+        name: 'The Gigantis',
+        role: 'Fry Springs',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Morgans',
+        role: 'Brookside',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Leitches',
+        role: 'Rio',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Smiths',
+        role: 'Fieldbrook',
+        photo: placeholder,
+        description: '',
+    },
+    {
+        name: 'The Conceptions',
+        role: 'Center College',
+        photo: placeholder,
+        description: '',
+    },
+];
+
 
 export const dnagLeaders = [
     { name: 'Rob Bundy', role: 'Dnag Leader', photo: placeholder },
