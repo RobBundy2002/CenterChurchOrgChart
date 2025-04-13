@@ -1,12 +1,12 @@
 import React from 'react';
 import LeaderCards from './LeaderCards';
 import { mcLeadersUnderForrest } from './orgData';
-import forrestCory from './Forrest.png';
+import forrestCory from './Images/Forrest.png';
 
 const ForrestCory = () => {
     return (
-        <div style={{ textAlign: 'center', padding: '2rem' }}>
-            <h2>Forrest Cory</h2>
+        <div className="leaders-container">
+            <h2 className="leaders-title">Forrest Cory</h2>
             <p>Lay Elder</p>
             <img
                 src={forrestCory}

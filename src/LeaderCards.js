@@ -1,5 +1,5 @@
 import React from 'react';
-import './LeaderCards.css';
+import './StyleSheets/LeaderCards.css';
 
 const LeaderCards = ({ members }) => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './StyleSheets/index.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './NavBar';
 import Elders from './Elders';
@@ -8,7 +8,6 @@ import MCLeaders from './McLeaders';
 import DnagLeaders from './DnagLeaders';
 import CommunityGroups from './CommunityGroups';
 import MinistryStaff from "./MinistryStaff";
-import ElderPage from "./ElderPage";
 import DrewReasons from "./DrewReasons";
 import ForrestCory from "./ForrestCory";
 import JoshMiller from "./JoshMiller";
@@ -24,7 +23,6 @@ function App() {
         <div className="container">
           <Routes>
             <Route path="/CenterChurchOrgChart" element={<Elders />} />
-              <Route path="/elders/:elderName" element={<ElderPage />} />
               <Route path="/deacons" element={<Deacons />} />
             <Route path="/mc-leaders" element={<MCLeaders />} />
             <Route path="/dnag-leaders" element={<DnagLeaders />} />

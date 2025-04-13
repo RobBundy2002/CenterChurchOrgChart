@@ -1,12 +1,12 @@
 import React from 'react';
 import LeaderCards from './LeaderCards';
 import { mcLeadersUnderJason } from './orgData';
-import jasonHackworth from './Jason.png';
+import jasonHackworth from './Images/Jason.png';
 
 const JasonHackworth = () => {
     return (
-        <div style={{ textAlign: 'center', padding: '2rem' }}>
-            <h2>Jason Hackworth</h2>
+        <div className="leaders-container">
+            <h2 className="leaders-title">Jason Hackworth</h2>
             <p>Lay Elder</p>
             <img
                 src={jasonHackworth}

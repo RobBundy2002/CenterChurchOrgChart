@@ -1,5 +1,5 @@
 import React from 'react';
-import './OrgChart.css'; // Reuse existing styles
+import './StyleSheets/OrgChart.css';
 
 const OrgChart = ({ title, members }) => {
     return (

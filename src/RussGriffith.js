@@ -1,12 +1,12 @@
 import React from 'react';
 import LeaderCards from './LeaderCards';
 import { mcLeadersUnderRuss } from './orgData';
-import russGriffith from './Russ.png';
+import russGriffith from './Images/Russ.png';
 
 const RussGriffith = () => {
     return (
-        <div style={{ textAlign: 'center', padding: '2rem' }}>
-            <h2>Russ Griffith</h2>
+        <div className="leaders-container">
+            <h2 className="leaders-title">Russ Griffith</h2>
             <p>Lay Elder</p>
             <img
                 src={russGriffith}
@@ -15,12 +15,6 @@ const RussGriffith = () => {
             />
             <div className="connector-container">
                 <div className="vertical-line" />
-                <div className="horizontal-line" />
-                <div className="branch-lines">
-                    {mcLeadersUnderRuss.map((_, index) => (
-                        <div key={index} className="branch-line" />
-                    ))}
-                </div>
             </div>
             <div className="leader-cards">
                 <LeaderCards members={mcLeadersUnderRuss} />

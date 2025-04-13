@@ -1,13 +1,13 @@
 // Placeholder image you can replace with real local paths or URLs later
 
-import joshMiller from './Josh.png';
-import justinLeitch from './Justin.png';
-import forrestCory from './Forrest.png';
-import russGriffith from './Russ.png';
-import alanSherriff from './Alan.png';
-import jasonHackworth from './Jason.png';
-import drewReasons from './Drew.png';
-import keatonDaniel from './Keaton.png';
+import joshMiller from './Images/Josh.png';
+import justinLeitch from './Images/Justin.png';
+import forrestCory from './Images/Forrest.png';
+import russGriffith from './Images/Russ.png';
+import alanSherriff from './Images/Alan.png';
+import jasonHackworth from './Images/Jason.png';
+import drewReasons from './Images/Drew.png';
+import keatonDaniel from './Images/Keaton.png';
 
 // import zachHannahEvans from './zachHannahEvans.png';
 //
@@ -16,22 +16,22 @@ import keatonDaniel from './Keaton.png';
 // import grantCostello from './grantCostello.png';
 // import ethanFouch from './ethanFouch.png';
 
-import rickJohnson from './Rick.png';
-import benSaunders from './Ben.jpg';
-import ashleyClubb from './Ashley.png';
-import jpSealy from './JP.png';
-import haleyMorgan from './Haley.png';
-import jessFlannery from './Jess.png';
-import sarahReasons from './Sarah.png';
-import jennaDaniel from './Jenna.png';
+import rickJohnson from './Images/Rick.png';
+import benSaunders from './Images/Ben.jpg';
+import ashleyClubb from './Images/Ashley.png';
+import jpSealy from './Images/JP.png';
+import haleyMorgan from './Images/Haley.png';
+import jessFlannery from './Images/Jess.png';
+import sarahReasons from './Images/Sarah.png';
+import jennaDaniel from './Images/Jenna.png';
 
-import erinLogan from './Erin.png';
-import joseConcepcion from './Jose.png';
-import livDidat from './Liv.png';
-import mikeMatzeder from './Mike.png';
-import marlyRokenbrod from './Marly.png';
-import ginnySigalas from './Ginny.png';
-import ianSimmons from './Ian.png';
+import erinLogan from './Images/Erin.png';
+import joseConcepcion from './Images/Jose.png';
+import livDidat from './Images/Liv.png';
+import mikeMatzeder from './Images/Mike.png';
+import marlyRokenbrod from './Images/Marly.png';
+import ginnySigalas from './Images/Ginny.png';
+import ianSimmons from './Images/Ian.png';
 
 const placeholder = 'https://via.placeholder.com/150';
 export let elders = [

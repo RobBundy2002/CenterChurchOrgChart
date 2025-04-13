@@ -25,6 +25,7 @@
     background-color: #ffffff;
     width: 31vh;
     padding: 2vh;
+    border: none;
     border-radius: 2vh;
     box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -72,6 +73,7 @@
     margin-top: 1vh;
     line-height: 1.4;
 }
+
 
 @media (max-width: 768px) {
 
