@@ -5,6 +5,7 @@ import './StyleSheets/NavBar.css';
 function Navbar() {
     return (
         <nav className="navbar">
+            <Link to="/MermaidPage">Full Org Chart</Link>
             <Link to="/CenterChurchOrgChart">Elder Team</Link>
             <Link to="/deacons">Deacons</Link>
             <Link to="/ministry-staff">Ministry Staff Team</Link>

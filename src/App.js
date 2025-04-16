@@ -15,6 +15,7 @@ import JustinLeitch from "./JustinLeitch";
 import AlanSherriff from "./AlanSherriff";
 import JasonHackworth from "./JasonHackworth";
 import RussGriffith from "./RussGriffith";
+import FullOrgChart from "./FullOrgChart";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Navbar />
         <div className="container">
           <Routes>
+            <Route path="/MermaidPage" element={<FullOrgChart />} />
             <Route path="/CenterChurchOrgChart" element={<Elders />} />
               <Route path="/deacons" element={<Deacons />} />
             <Route path="/mc-leaders" element={<MCLeaders />} />
